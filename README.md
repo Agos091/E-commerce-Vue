@@ -40,25 +40,25 @@ npm run preview
  - src/App.vue: Main application component.
  - vite.config.js: Configuration file for Vite.
 
-## 🎨 Estilização
+## 🎨 Styling
 
  - Uses SCSS for maintainable and organized styling.
  - High-contrast color scheme for readability.
 - Responsive design for optimal viewing on all devices.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 - **Vue 3**:  Front-end framework.
 - **Vuex**: State management pattern.
 - **Vite**: Modern build tool.
 - **SCSS**: For advanced styling.
-## 📚 Explicação das Principais Funcionalidades
+## 📚 Explanation of Main Features
 
 - **Vuex Store**: Manages product data fetched from an API (https://fakestoreapi.com/products). The loadProductsAsync action retrieves and commits data.
 - **Computed Properties**: Access products from Vuex and render them dynamically.
 - **Imagens Dinâmicas de Fundo**: Uses :style to set images as background-image.
 
-## 📝 Exemplo de Uso
+## 📝 Usage Example
 
 Example of how product images are rendered:
 
