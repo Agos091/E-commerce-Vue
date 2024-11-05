@@ -76,4 +76,4 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/agos-dalcin-rufino-a99
 Contributions are welcome! If you have any suggestions or want to collaborate, feel free to open an issue or submit a pull request.
 
 A small preview projects:
-![Photo of Vue E-commerce - Shopping Bag](Screenshot_1.png)
+![Photo of Vue E-commerce - Shopping Bag](./prints/Screenshot_1.png)
