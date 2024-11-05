@@ -58,18 +58,6 @@ npm run preview
 - **Computed Properties**: Access products from Vuex and render them dynamically.
 - **Imagens Dinâmicas de Fundo**: Uses :style to set images as background-image.
 
-## 📝 Exemplo de Uso
-
-Example of how product images are rendered:
-
-```vue
-<div
-  v-for="(product, index) in products"
-  :key="index"
-  class="product-image"
-  :style="{ backgroundImage: 'url(' + product.image + ')' }"
-></div>
-````
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/agos-dalcin-rufino-a9913821a/).
 🤝 Contributions
