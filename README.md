@@ -55,13 +55,13 @@ npm run preview
 - **Vite**: Modern build tool.
 - **SCSS**: For advanced styling.
 
-## 📚 Explicação das Principais Funcionalidades
+## 📚 Explanation of Main Features
 
 - **Vuex Store**: Manages product data fetched from an API (https://fakestoreapi.com/products). The loadProductsAsync action retrieves and commits data.
 - **Computed Properties**: Access products from Vuex and render them dynamically.
 - **Imagens Dinâmicas de Fundo**: Uses :style to set images as background-image.
 
-## 📝 Exemplo de Uso
+## 📝Usage Example
 
 Example of how product images are rendered:
 
