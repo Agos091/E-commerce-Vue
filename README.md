@@ -14,7 +14,7 @@ This project is a simple and interactive e-commerce application built using **Vu
 
 Follow these steps to set up the project locally:
 
-````bash
+```bash
 # Clone the repository:
 git clone https://github.com/agos091/e-commerce-vue.git
 
@@ -32,36 +32,36 @@ npm run build
 
 # Preview the production build:
 npm run preview
+```
+
 ## 📦 Project Structure
 
- - src/views: Main view components like HomePage.vue.
- - src/store: Vuex store configuration for state management.
- - src/assets: Static assets such as images and styles.
- - src/App.vue: Main application component.
- - vite.config.js: Configuration file for Vite.
+- `src/views`: Main view components like HomePage.vue.
+- `src/store`: Vuex store configuration for state management.
+- `src/assets`: Static assets such as images and styles.
+- `src/App.vue`: Main application component.
+- `vite.config.js`: Configuration file for Vite.
 
 ## 🎨 Estilização
 
- - Uses SCSS for maintainable and organized styling.
- - High-contrast color scheme for readability.
+- Uses SCSS for maintainable and organized styling.
+- High-contrast color scheme for readability.
 - Responsive design for optimal viewing on all devices.
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Vue 3**:  Front-end framework.
+- **Vue 3**: Front-end framework.
 - **Vuex**: State management pattern.
 - **Vite**: Modern build tool.
 - **SCSS**: For advanced styling.
+
 ## 📚 Explicação das Principais Funcionalidades
 
 - **Vuex Store**: Manages product data fetched from an API (https://fakestoreapi.com/products). The loadProductsAsync action retrieves and commits data.
 - **Computed Properties**: Access products from Vuex and render them dynamically.
-- **Imagens Dinâmicas de Fundo**: Uses :style to set images as background-image.
-
+- **Imagens Dinâmicas de Fundo**: Uses `:style` to set images as background-image.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/agos-dalcin-rufino-a9913821a/).
-🤝 Contributions
-Contributions are welcome! If you have any suggestions or want to collaborate, feel free to open an issue or submit a pull request.
 
 A small preview projects:
 ![Photo of Vue E-commerce - Shopping Bag](./prints/Screenshot_1.png)
