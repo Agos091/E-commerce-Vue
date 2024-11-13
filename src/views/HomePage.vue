@@ -25,16 +25,13 @@
 </template>
 
 <script>
+import { mapState } from "vuex/dist/vuex.cjs.js";
 export default {
   name: "HomePage",
-  computed: {
-    products() {
-      return this.$store.state.products;
-    },
-    productsInBag() {
-      return this.$store.state.productsInBag;
-    },
+  data() {
+    return {};
   },
+  computed: mapState(["products", "productsInBag"]),
 
   methods: {
     addToBag(product) {
